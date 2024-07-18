@@ -10,7 +10,7 @@ sudo groupadd docker
 sudo gpasswd -a ${USER} docker
 sudo service docker restart
 ```
-# set Docker to auto-launch on startup
+# Set Docker to auto-launch on startup
 ```
 sudo systemctl enable docker
 ```
